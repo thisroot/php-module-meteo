@@ -58,8 +58,8 @@ foreach ($days as $day => $value)
 	    foreach ($parties as $p => $value)
 		{
 
-			echo '<div class="divImage	">
-			<img class="centrer" src="./pic_meteom/'.$value["icon"].'" title="'.$value["t"].'"/>
+			echo '<div class="divImage">
+			<img class="centrer" src="./pic_meteo/'.$value["icon"].'" title="'.$value["t"].'"/>
 			</div>';
 
 		}
