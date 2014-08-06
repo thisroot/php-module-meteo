@@ -16,8 +16,8 @@ IMG.centrer {
 include_once("class.php");
 
 $weather = new wMeteo();
-$code 	 = $weather->getCityCode('Laon, France');
-$days	 = $weather->getWeather($code, 3);
+$code 	 = $weather->getCityCode('Laon, France'); //changez la ville ici
+$days	 = $weather->getWeather($code, 3); // 3 est le nom de jour sur laquel la méteo s'affichagera max 10 jours)
 
 //affiche le tableau de données
 // echo "<pre>";
