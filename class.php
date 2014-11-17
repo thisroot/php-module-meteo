@@ -19,6 +19,7 @@ class wMeteo
     public function getCityCode($search)
     {
 
+        $search = "Laon, France";
         $search = explode(',', $search);
         $search = array_map('urlencode', $search);
         $search = implode(',+', $search);
